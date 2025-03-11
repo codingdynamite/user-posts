@@ -13,7 +13,7 @@ main();
 /* how to route to a new page in vanilla javascript */
 function showUserPosts(id) {
     localStorage.setItem("id", id);
-    window.location.href = `${window.location.origin}/user-posts/user.html`
+    window.location.href = `${window.location.origin}/user.html`
 }
 
 
